@@ -1,0 +1,10 @@
+{
+  "system_mode": "strict_recovery",
+  "resolution_strategy": "abort_lowest_priority",
+  "thread_priority_weights": {
+    "payment_gateway_thread": 100,
+    "analytics_logging_thread": 10,
+    "inventory_check_thread": 50
+  },
+  "max_allowed_wait_time_ms": 500
+}
